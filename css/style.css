@@ -8,11 +8,11 @@
 }
 
 ul,
-lo {
+ol {
     list-style: none;
 }
 
-a a:hover {
+a, a:hover {
     text-decoration: none;
     display: inline-block;
 
@@ -45,36 +45,27 @@ h6 {
     display: flex;
     column-gap: 22px;
 }
-
-.nav-link{
-    position: relative;
-}
-.nav-link::after{ 
-    position: absolute;
-    height: 2px;
-    width:0px;
-    background: red;
-    content: "";
-    bottom: 0;
-    left: 8px;
-    /* visibility: hidden; */
-    opacity: 0;
-    transition: 0.4s;
-}
-.nav-link:hover.nav-link::after{
-    /* visibility: visible; */
-    opacity: 1;
-    width: 30px;
-}
 .nav-link{
     font-size: 14px;
     font-weight: 500;
-    color: #222;
+    color: #ff0000;
+    /* background: green; */
     padding:0;
+    position: relative;
 }
+.nav-link::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 80%;
+    background: rgb(0, 255, 136);
+    bottom: 0;
+    left: 0;
+}
+
 .manuicons{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     column-gap: 30px;
 }
