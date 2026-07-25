@@ -1,0 +1,58 @@
+/* all common css start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+ul,
+lo {
+    list-style: none;
+}
+
+a a:hover {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+
+/* all common css end */
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.manuicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.navbar-nav li{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+#bannerPart{
+    /* background: url(/images/Group\ 6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+} */
