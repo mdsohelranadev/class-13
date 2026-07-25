@@ -28,31 +28,60 @@ h6 {
     margin: 0;
     line-height: 0.8;
 }
-
 /* all common css end */
-.container{
+
+
+/* .container{
     width: 1320px;
     margin: 0 auto;
+} */
+
+
+
+.navbar-brand{
+    padding-right: 37px;
+}
+.navbar-nav{
+    display: flex;
+    column-gap: 22px;
 }
 
+.nav-link{
+    position: relative;
+}
+.nav-link::after{ 
+    position: absolute;
+    height: 2px;
+    width:0px;
+    background: red;
+    content: "";
+    bottom: 0;
+    left: 8px;
+    /* visibility: hidden; */
+    opacity: 0;
+    transition: 0.4s;
+}
+.nav-link:hover.nav-link::after{
+    /* visibility: visible; */
+    opacity: 1;
+    width: 30px;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    padding:0;
+}
 .manuicons{
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 32px;
+    column-gap: 30px;
 }
 
-.navbar-nav li{
-    font-size: 14px;
-    font-weight: 500;
 
+.manuicons a i{
+    font-size: 20px;
+    color: #222;
 }
 
-#bannerPart{
-    /* background: url(/images/Group\ 6.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-} */
