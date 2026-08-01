@@ -12,7 +12,8 @@ ol {
     list-style: none;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
     display: inline-block;
 
@@ -28,32 +29,35 @@ h6 {
     margin: 0;
     line-height: 0.8;
 }
+
 /* all common css end */
 
 
 /* .container{
-    width: 1320px;
+    width: 1320px;W
     margin: 0 auto;
 } */
 
-
-
-.navbar-brand{
+/* Banner Part start */
+.navbar-brand {
     padding-right: 37px;
 }
-.navbar-nav{
+
+.navbar-nav {
     display: flex;
     column-gap: 22px;
 }
-.nav-link{
+
+
+.nav-link {
     font-size: 14px;
     font-weight: 500;
     color: #ff0000;
     /* background: green; */
-    padding:0;
-    position: relative;
+    /* position: relative; */
 }
-.nav-link::after{
+
+/* .nav-link::after{
     position: absolute;
     content: "";
     height: 2px;
@@ -61,18 +65,27 @@ h6 {
     background: rgb(0, 255, 136);
     bottom: 0;
     left: 0;
-}
+} */
 
-.manuicons{
+.manuicons {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     column-gap: 30px;
 }
 
 
-.manuicons a i{
+.manuicons a i {
     font-size: 20px;
     color: #222;
 }
 
+/* Banner Part end */
+
+
+ /* fileteroption start */
+ #filteroption{
+    padding-top: 100px;
+    padding-bottom: 95px;
+ }
+ /* fileteroption end */
