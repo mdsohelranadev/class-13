@@ -125,8 +125,12 @@ h6 {
     margin-top: 20px;
     margin-bottom: 15px;
     color: #767676;
+}
+
+.productName h4{
     font-size: 14px;
     font-weight: 400;
+
 }
 
 .col-lg-3 h5 {
@@ -156,7 +160,13 @@ h6 {
 
 .allProductbtn a {
     color: #767676;
+    transition: .4s;
 
+}
+
+.allProductbtn a:hover{
+    font-weight: bold;
+    color: #222;
 }
 
 /* product part end */
