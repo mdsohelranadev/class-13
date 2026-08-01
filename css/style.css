@@ -52,9 +52,15 @@ h6 {
 .nav-link {
     font-size: 14px;
     font-weight: 500;
-    color: #ff0000;
+    color: #222;
+    transition: .4s;
     /* background: green; */
     /* position: relative; */
+}
+
+.nav-link:hover{
+    transform: scale(1.2);
+    color: red;
 }
 
 /* .nav-link::after{
@@ -83,9 +89,54 @@ h6 {
 /* Banner Part end */
 
 
- /* fileteroption start */
- #filteroption{
+/* fileteroption start */
+#filteroption {
     padding-top: 100px;
     padding-bottom: 95px;
- }
- /* fileteroption end */
+}
+
+/* fileteroption end */
+
+
+/* product part start */
+
+.porductbtn button {
+    margin-top: 50px;
+    border: none;
+    background: transparent;
+    padding: 0 20px;
+    margin-bottom: 45px;
+}
+
+.productName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #767676;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.col-lg-3 h5{
+    color: #222;
+    font-size: 16;
+    font-weight: 400    ;
+    margin-bottom: 5px;
+}
+.col-lg-3 del{
+    color: #222;
+}
+
+.allProductbtn{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight:500;
+    text-transform: uppercase;
+}
+.allProductbtn a{
+    color: #222;
+}
+/* product part end */
