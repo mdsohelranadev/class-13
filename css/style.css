@@ -37,6 +37,16 @@ h6 {
     width: 1320px;W
     margin: 0 auto;
 } */
+/* heder part start */
+
+.navbar{
+    /* position:fixed; */
+    /* background: red; */
+    /* margin: 0 auto; */
+}
+/* heder part end */
+
+
 
 /* Banner Part start */
 .navbar-brand {
@@ -179,3 +189,26 @@ h6 {
 }
 
 /* livebanner part end */
+
+
+.prev{
+    font-size: 30px;
+    color: red;
+}
+
+.next{
+    font-size: 30px;
+    color: red;
+}
+
+.slide{
+    background: red;
+    padding: 200px 0;
+    margin: 50px;
+}
+.slideTwo{
+    background: green;
+}
+.slidethree{
+    background: rgb(44, 7, 228);
+}
