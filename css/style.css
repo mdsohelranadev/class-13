@@ -39,11 +39,12 @@ h6 {
 } */
 /* heder part start */
 
-.navbar{
+.navbar {
     /* position:fixed; */
     /* background: red; */
     /* margin: 0 auto; */
 }
+
 /* heder part end */
 
 
@@ -122,7 +123,8 @@ h6 {
     transition: .4s;
     color: #767676;
 }
-.porductbtn button:hover{
+
+.porductbtn button:hover {
     /* transform: scale(1.1); */
     font-weight: bold;
     color: #222;
@@ -137,7 +139,7 @@ h6 {
     color: #767676;
 }
 
-.productName h4{
+.productName h4 {
     font-size: 14px;
     font-weight: 400;
 
@@ -174,7 +176,7 @@ h6 {
 
 }
 
-.allProductbtn a:hover{
+.allProductbtn a:hover {
     font-weight: bold;
     color: #222;
 }
@@ -184,31 +186,125 @@ h6 {
 
 
 /* livebanner part start */
-.col-lg-12{
+.col-lg-12 {
     margin-bottom: 100px;
 }
 
 /* livebanner part end */
 
 
-.prev{
+.prev {
     font-size: 30px;
     color: red;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 555;
 }
 
-.next{
+.next {
     font-size: 30px;
     color: red;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 555;
 }
 
-.slide{
+.slide {
     background: red;
     padding: 200px 0;
     margin: 50px;
 }
-.slideTwo{
+
+.slideTwo {
     background: green;
 }
-.slidethree{
+
+.slidethree {
     background: rgb(44, 7, 228);
+}
+
+.bannerok {
+    margin: 0 auto;
+    background: red;
+}
+
+#liveBanner {
+    background: url(../images/liveimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 250px;
+}
+
+.manWoman {
+    margin-top: 100px;
+
+}
+
+.limitedProduct {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 105px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.limitedcardName {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+}
+
+.limitedcardName h4 {
+    color: #767676;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cardName h3 {
+    margin: 15px 0;
+}
+.uomoTitle h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    color: #222;
+    margin-top: 105px;
+    margin-bottom: 45px;
+    
+}
+
+#uomoPart{
+    margin-bottom: 100px;
+}
+
+.uomoIcons{
+    margin-top: 105px;
+}
+.trolly {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    color: #222;
+}
+.trolly h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.trolly h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #767676;
+    
 }
