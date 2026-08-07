@@ -8,3 +8,9 @@ $('.bannersliderPart, .slides').slick({
     nextArrow: ' <i class="fa-solid fa-circle-arrow-right next"></i>'
 
 }); 
+
+
+
+ var containerEl = document.querySelector('.filterbtn');
+
+            var mixer = mixitup(containerEl);

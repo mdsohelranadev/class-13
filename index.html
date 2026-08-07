@@ -140,15 +140,15 @@
                         <h2>OUR TRENDY PRODUCTS</h2>
                     </div>
                     <div class="porductbtn">
-                        <button>ALL </button>
-                        <button>NEWARRIVALS</button>
-                        <button>BEST SELLER</button>
-                        <button>TOP RATING</button>
+                        <button data-filter="all">ALL </button>
+                        <button data-filter=".na">NEWARRIVALS</button>
+                        <button data-filter=".bs">BEST SELLER</button>
+                        <button data-filter=".tr">TOP RATING</button>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3">
+            <div class="row filterbtn">
+                <div class="col-lg-3 mix na">
                     <a href="#">
                         <picture>
                             <img src="images/p-model 1.png" alt="p-model 1.png" class="w-100 img-fluid">
@@ -162,7 +162,7 @@
                     <span>$29</span>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 mix tr ">
                     <a href="#">
                         <picture>
                             <img src="images/p-model 2.png" alt="p-model 1.png" class="w-100 img-fluid">
@@ -176,7 +176,7 @@
                     <span>$29</span>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 mix bs">
                     <a href="#">
                         <picture>
                             <img src="images/p-model 3.png" alt="p-model 1.png" class="w-100 img-fluid">
@@ -190,7 +190,7 @@
                     <span>$29</span>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 bs na mix ">
                     <a href="#">
                         <picture>
                             <img src="images/p-model 4.png" alt="p-model 1.png" class="w-100 img-fluid">
@@ -204,7 +204,7 @@
                     <span><del>$29</del>$20</span>
                 </div>
 
-                <div class="col-lg-3 mt-5 ">
+                <div class="col-lg-3 mix tr bs na mt-5 ">
                     <a href="#">
                         <picture>
                             <img src="images/p-model 5.png" alt="p-model 1.png" class="w-100 img-fluid">
@@ -218,7 +218,7 @@
                     <span>$29</span>
                 </div>
 
-                <div class="col-lg-3 mt-5 ">
+                <div class="col-lg-3 mix tr bs  mt-5 ">
                     <a href="#">
                         <picture>
                             <img src="images/p-model 6.png" alt="p-model 1.png" class="w-100 img-fluid">
@@ -232,7 +232,7 @@
                     <span>$29</span>
                 </div>
 
-                <div class="col-lg-3 mt-5 ">
+                <div class="col-lg-3 mix na  mt-5 ">
                     <a href="#">
                         <picture>
                             <img src="images/p-model 7.png" alt="p-model 1.png" class="w-100 img-fluid">
@@ -246,7 +246,7 @@
                     <span>$29</span>
                 </div>
 
-                <div class="col-lg-3 mt-5 ">
+                <div class="col-lg-3 mix tr  mt-5 ">
                     <a href="#">
                         <picture>
                             <img src="images/p-model 8.png" alt="p-model 1.png" class="w-100 img-fluid">
@@ -496,6 +496,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
     <script src="js/script.js"></script>
     <!-- script.js link end -->
 </body>
